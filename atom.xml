@@ -2,13 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io/blog</id>
     <title>Memory</title>
-    <updated>2021-01-08T13:23:10.007Z</updated>
+    <updated>2021-01-08T15:02:49.483Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io/blog"/>
     <link rel="self" href="https://zhengfan2014.github.io/blog/atom.xml"/>
     <logo>https://zhengfan2014.github.io/blog/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, Memory</rights>
+    <entry>
+        <title type="html"><![CDATA[美化你的Github]]></title>
+        <id>https://zhengfan2014.github.io/blog/post/mei-hua-ni-de-github/</id>
+        <link href="https://zhengfan2014.github.io/blog/post/mei-hua-ni-de-github/">
+        </link>
+        <updated>2021-01-08T13:47:02.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="shields">shields</h2>
+<p><a href="https://shields.io/">官网</a><br>
+<strong>demo</strong></p>
+<pre><code class="language-python">https://img.shields.io/github/stars/zhengfan2014/xbmc-kodi-private-china-addons
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://img.shields.io/github/stars/zhengfan2014/xbmc-kodi-private-china-addons" alt="星星数" loading="lazy"></figure>
+<hr>
+<pre><code class="language-python">https://img.shields.io/github/forks/zhengfan2014/xbmc-kodi-private-china-addons
+</code></pre>
+<figure data-type="image" tabindex="2"><img src="https://img.shields.io/github/forks/zhengfan2014/xbmc-kodi-private-china-addons" alt="叉子数" loading="lazy"></figure>
+<hr>
+<pre><code class="language-python">https://img.shields.io/github/issues/zhengfan2014/xbmc-kodi-private-china-addons?color=%232E8B57
+</code></pre>
+<figure data-type="image" tabindex="3"><img src="https://img.shields.io/github/issues/zhengfan2014/xbmc-kodi-private-china-addons?color=%232E8B57" alt="问题数" loading="lazy"></figure>
+<hr>
+<h2 id="github-readme-stats">github-readme-stats</h2>
+<p><a href="https://github.com/anuraghazra/github-readme-stats">项目地址</a><br>
+<strong>GitHub 统计卡片</strong></p>
+<pre><code class="language-python">https://github-readme-stats.vercel.app/api?username=zhengfan2014
+</code></pre>
+<p><img src="https://github-readme-stats.vercel.app/api?username=zhengfan2014" alt="我的 GitHub 数据" loading="lazy"><br>
+<strong>GitHub 更多置顶</strong></p>
+<pre><code class="language-python">https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&amp;repo=github-readme-stats
+</code></pre>
+<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&amp;repo=github-readme-stats" alt="ReadMe Card" loading="lazy"></a><br>
+<strong>热门语言卡片</strong></p>
+<pre><code class="language-python">https://github-readme-stats.vercel.app/api/top-langs/?username=zhengfan2014&amp;layout=compact&amp;hide=html,php
+</code></pre>
+<figure data-type="image" tabindex="4"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhengfan2014&amp;layout=compact&amp;hide=html,php" alt="" loading="lazy"></figure>
+<hr>
+<h2 id="codestats-profile-readme">codestats-profile-readme</h2>
+<p>显示你codestats每日使用vscode编写的代码量<br>
+<a href="https://github.com/WEGFan/codestats-profile-readme#demo">项目地址</a><br>
+<strong>demo</strong></p>
+<pre><code class="language-python">https://codestats-readme.wegfan.cn/history-graph/zhengfan2014?width=850&amp;height=300&amp;timezone=08:00&amp;history_days=20&amp;max_languages=12&amp;language_colors=[&quot;3e4053&quot;,&quot;f15854&quot;,&quot;5da5da&quot;,&quot;faa43a&quot;,&quot;60bd68&quot;,&quot;f17cb0&quot;,&quot;b2912f&quot;,&quot;00897b&quot;,&quot;b276b2&quot;,&quot;ffc0cb&quot;,&quot;cddc39&quot;,&quot;7e57c2&quot;,&quot;bdbdbd&quot;]
+</code></pre>
+<figure data-type="image" tabindex="5"><a href="https://codestats.net/users/zhengfan2014"><img src="https://codestats-readme.wegfan.cn/history-graph/zhengfan2014?width=850&amp;height=300&amp;timezone=08:00&amp;history_days=20&amp;max_languages=12&amp;language_colors=%5B%223e4053%22,%22f15854%22,%225da5da%22,%22faa43a%22,%2260bd68%22,%22f17cb0%22,%22b2912f%22,%2200897b%22,%22b276b2%22,%22ffc0cb%22,%22cddc39%22,%227e57c2%22,%22bdbdbd%22%5D" alt="" loading="lazy"></a></figure>
+<hr>
+<h2 id="显示天气">显示天气</h2>
+<p>项目地址未知   <a href="https://nocilol.me/">作者</a><br>
+<strong>demo</strong></p>
+<pre><code class="language-python">https://weather-icon.journeyad.repl.co/@shanghai?v=1
+</code></pre>
+<figure data-type="image" tabindex="6"><img src="https://weather-icon.journeyad.repl.co/@shanghai?v=1" alt="" loading="lazy"></figure>
+<h2 id="访问计数器">访问计数器</h2>
+<p><a href="https://github.com/journey-ad/Moe-counter">项目地址</a> - <a href="https://count.getloli.com/">官网</a> - <a href="https://nocilol.me/">作者</a><br>
+<strong>demo</strong></p>
+<pre><code class="language-python">https://count.getloli.com/get/@zhengfan2014
+</code></pre>
+<figure data-type="image" tabindex="7"><img src="https://count.getloli.com/get/@zhengfan2014" alt="zhengfan2014" loading="lazy"></figure>
+<h2 id="留言板">留言板</h2>
+<p><a href="https://github.com/journey-ad/chat-room">项目地址</a> - <a href="https://chat.getloli.com/">官网</a> - <a href="https://nocilol.me/">作者</a><br>
+<strong>demo</strong></p>
+<pre><code class="language-python">https://chat.getloli.com/room/@journey-ad.github?title=JAD%E7%9A%84Github%E7%95%99%E8%A8%80%E6%9D%BF
+</code></pre>
+<figure data-type="image" tabindex="8"><a href="https://chat.getloli.com/room/@journey-ad.github?title=JAD%E7%9A%84Github%E7%95%99%E8%A8%80%E6%9D%BF"><img src="https://chat.getloli.com/room/@journey-ad.github/svg?width=600&amp;height=280&amp;limit=20&amp;theme=light&amp;title=journey-ad@github:%20~&amp;fontSize=13" alt="" loading="lazy"></a></figure>
+<style>.md_block img {
+  display: inline;
+  margin: 0 auto;
+  padding: 4px 0;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-size: cover;
+  background-position: center top;
+  transition: transform 0.5s;
+}</style>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美化 Gridea 的 Bitcron-Pro 主题的底部信息]]></title>
         <id>https://zhengfan2014.github.io/blog/post/mei-hua-gridea-de-bitcron-pro-zhu-ti-de-di-bu-xin-xi/</id>
