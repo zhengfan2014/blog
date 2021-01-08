@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io/blog</id>
-    <title>zhengfan&apos;Blog</title>
-    <updated>2021-01-08T09:36:35.921Z</updated>
+    <title>Memory</title>
+    <updated>2021-01-08T12:53:47.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io/blog"/>
     <link rel="self" href="https://zhengfan2014.github.io/blog/atom.xml"/>
     <logo>https://zhengfan2014.github.io/blog/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2021, zhengfan&apos;Blog</rights>
+    <rights>All rights reserved 2021, Memory</rights>
     <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://zhengfan2014.github.io/blog/post/qqq/</id>
-        <link href="https://zhengfan2014.github.io/blog/post/qqq/">
+        <title type="html"><![CDATA[美化 Gridea 的 Bitcron-Pro 主题的底部信息]]></title>
+        <id>https://zhengfan2014.github.io/blog/post/mei-hua-gridea-de-bitcron-pro-zhu-ti-de-di-bu-xin-xi/</id>
+        <link href="https://zhengfan2014.github.io/blog/post/mei-hua-gridea-de-bitcron-pro-zhu-ti-de-di-bu-xin-xi/">
         </link>
-        <updated>2021-01-08T09:19:13.000Z</updated>
-        <content type="html"><![CDATA[<p>helloworld</p>
+        <updated>2021-01-08T12:45:18.000Z</updated>
+        <content type="html"><![CDATA[<p>Bitcron-Pro 间距过宽，强迫症不能忍😣<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610110372316.png" alt="" loading="lazy"><br>
+右键审查元素<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610110379497.png" alt="" loading="lazy"><br>
+找到真凶了，margin搞的鬼<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610110386189.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610110392883.png" alt="" loading="lazy"><br>
+给所有链接增加 <code>style=&quot;margin:0&quot;</code></p>
+<pre><code class="language-html">Powered by &lt;a style=&quot;margin:0&quot; href=&quot;https://github.com/getgridea/gridea&quot; target=&quot;_blank&quot;&gt;Gridea&lt;/a&gt;  |  Theme by &lt;a 
+style=&quot;margin:0&quot; href=&quot;https://github.com/qyxtim/bitcron-pro&quot; target=&quot;_blank&quot;&gt;Bitcron-pro&lt;/a&gt;  |  
+</code></pre>
+<p>解决！</p>
 ]]></content>
     </entry>
 </feed>
