@@ -2,13 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io/blog</id>
     <title>Memory</title>
-    <updated>2021-01-08T15:08:59.395Z</updated>
+    <updated>2021-01-14T07:34:47.646Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io/blog"/>
     <link rel="self" href="https://zhengfan2014.github.io/blog/atom.xml"/>
     <logo>https://zhengfan2014.github.io/blog/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, Memory</rights>
+    <entry>
+        <title type="html"><![CDATA[记群晖docker终端 socket已停止解决方法 V2]]></title>
+        <id>https://zhengfan2014.github.io/blog/post/ji-qun-hui-docker-zhong-duan-socket-yi-ting-zhi-jie-jue-fang-fa-v2/</id>
+        <link href="https://zhengfan2014.github.io/blog/post/ji-qun-hui-docker-zhong-duan-socket-yi-ting-zhi-jie-jue-fang-fa-v2/">
+        </link>
+        <updated>2021-01-14T07:12:55.000Z</updated>
+        <content type="html"><![CDATA[<p>今天想弄个docker Ubuntu终端安装点东西，发现socker已关闭<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610609375181.png" alt="" loading="lazy"><br>
+开始以为docker镜像有问题，去重新拉了一个，发现还是不行。然后打开有bash的codeserver 的docker，发现终端页视socker已关闭，危。难道要重装？😭</p>
+<p>谷歌一下，发现了一个教程</p>
+<blockquote>
+<p><a href="https://blog.eric-chen.net/archives/330.html">群晖docker终端 socket已停止问题解决方法</a></p>
+</blockquote>
+<p>教程具体内容如下</p>
+<pre><code class="language-sh"> #先备份,安全第一
+cp /usr/syno/share/nginx/Portal.mustache /usr/syno/share/nginx/Portal.mustache.bak
+
+#再编辑
+nano /usr/syno/share/nginx/Portal.mustache
+BashCopy
+</code></pre>
+<p>在打开的文件中，找到location 节点，在节点的末尾添加下面的代码</p>
+<pre><code class="language-sh">proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection &quot;upgrade&quot;;
+proxy_read_timeout 86400;
+</code></pre>
+<p>保存后，充气nginx</p>
+<pre><code>sudo synoservicecfg --restart nginx
+</code></pre>
+<p>注意，DSM升级的时候，可能会重新覆盖这个文件。如果覆盖了，重新改一下就好。</p>
+<hr>
+<p>不过我实际操作后发现不好用，根本没有效果，去教程里提到的github看看，写着</p>
+<blockquote>
+<p>Starting from DSM 6.2.1, this modification is no longer required, as Application Portail has an option to handle websocket.</p>
+</blockquote>
+<p>我刚好是6.2.1的，尴尬了。</p>
+<p>而且，按照博主的改，群晖还会显示个大大的注意<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610609241812.png" alt="" loading="lazy"></p>
+<p>然后我又逛了谷歌第二个搜索结果，里面提到换浏览器可以解决。我换了firefox，没有用。。。。。。</p>
+<p>然后我又换了edge，欸，居然可以了！这不科学！<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610609518845.png" alt="" loading="lazy"><br>
+我开始怀疑是chrome cookie之类有问题，清除了一下，好了<br>
+<img src="https://zhengfan2014.github.io/blog/post-images/1610609534201.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美化你的Github]]></title>
         <id>https://zhengfan2014.github.io/blog/post/mei-hua-ni-de-github/</id>
