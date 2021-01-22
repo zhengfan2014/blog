@@ -2,13 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io/blog</id>
     <title>Memory</title>
-    <updated>2021-01-14T08:54:29.223Z</updated>
+    <updated>2021-01-22T10:16:37.465Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io/blog"/>
     <link rel="self" href="https://zhengfan2014.github.io/blog/atom.xml"/>
     <logo>https://zhengfan2014.github.io/blog/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, Memory</rights>
+    <entry>
+        <title type="html"><![CDATA[收藏的 Github python 签到项目]]></title>
+        <id>https://zhengfan2014.github.io/blog/post/shou-cang-de-github-python-qian-dao-xiang-mu/</id>
+        <link href="https://zhengfan2014.github.io/blog/post/shou-cang-de-github-python-qian-dao-xiang-mu/">
+        </link>
+        <updated>2021-01-17T06:35:05.000Z</updated>
+        <content type="html"><![CDATA[<style>.md_block img {
+  display: inline;
+  margin: 0 auto;
+  padding: 4px 0;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-size: cover;
+  background-position: center top;
+  transition: transform 0.5s;
+}</style>
+<blockquote>
+<p>备份防丢</p>
+</blockquote>
+<h3 id="mengshouercheckinbox">mengshouer/CheckinBox</h3>
+<p><a href="https://github.com/mengshouer/CheckinBox">https://github.com/mengshouer/CheckinBox</a><br>
+<a href="https://github.com/mengshouer/CheckinBox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mengshouer&amp;repo=CheckinBox" alt="https://github.com/mengshouer/CheckinBox" loading="lazy"></a></p>
+<ul>
+<li>天翼云盘 : 每日签到一次，抽奖2次</li>
+<li>最终幻想14积分商城签到</li>
+<li>什么值得买网页每日签到</li>
+<li>52pojie每日签到</li>
+<li>网易云音乐每日签到与刷歌单</li>
+<li>有道云笔记签到</li>
+</ul>
+<h3 id="sanshuifeibingexampleforscf">sanshuifeibing/ExampleForSCF</h3>
+<p><a href="https://github.com/sanshuifeibing/ExampleForSCF">https://github.com/sanshuifeibing/ExampleForSCF</a><br>
+<a href="https://github.com/sanshuifeibing/ExampleForSCF"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sanshuifeibing&amp;repo=ExampleForSCF" alt="https://github.com/sanshuifeibing/ExampleForSCF" loading="lazy"></a></p>
+<ul>
+<li>52pojieCheckIn : 每日签到</li>
+<li>BilibiliCheckIn : 每日直播签到赚银瓜子; 每日观看视频赚经验;每日登录赚经验</li>
+</ul>
+<h3 id="sitoidailycheckin">Sitoi/dailycheckin</h3>
+<p><a href="https://github.com/Sitoi/dailycheckin">https://github.com/Sitoi/dailycheckin</a><br>
+<a href="https://github.com/Sitoi/dailycheckin"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Sitoi&amp;repo=dailycheckin" alt="https://github.com/Sitoi/dailycheckin" loading="lazy"></a></p>
+<ul>
+<li>爱奇艺 : 签7天奖1天，14天奖2天，28天奖7天；日常任务；随机成长值</li>
+<li>全民K歌 : 每日签到获取鲜花 每日大约 150 鲜花左右</li>
+<li>腾讯视频 : 每日两次腾讯视频签到获取成长值</li>
+<li>有道云笔记 : 每日签到获取存储空间</li>
+<li>网易云音乐 : 每日自动登录签到 + 刷歌 310 首</li>
+<li>一加手机社区官方论坛 : 论坛每日签到 + 10 次抽奖</li>
+<li>百度贴吧 : 贴吧每日签到</li>
+<li>Bilibili : 直播签到，漫画签到，每日经验任务，自动投币，银瓜子换硬币等功能</li>
+<li>V2EX : 每日签到</li>
+<li>什么值得买 : 每日签到</li>
+<li>联通营业厅 :  每日签到</li>
+<li>Fa米家 APP : 连续签到7天总计获得6粒Fa米粒，每月15号23.59分清空Fa米粒。理论一个月最少获得24粒fa米粒。</li>
+<li>喜马拉雅极速版 : 金币获取</li>
+<li>小米运动 : 每日小米运动刷步数</li>
+<li>百度搜索资源平台 : 提交网站页面供百度收录</li>
+<li>每日天气预报 : 获取指定的多个城市天气信息</li>
+<li>每日一句 : 从词霸中获取每日一句，带英文</li>
+</ul>
+<h3 id="y1ndangenshin-impact-helper">y1ndan/genshin-impact-helper</h3>
+<p><a href="https://github.com/y1ndan/genshin-impact-helper">https://github.com/y1ndan/genshin-impact-helper</a><br>
+<a href="https://github.com/y1ndan/genshin-impact-helper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=y1ndan&amp;repo=genshin-impact-helper" alt="https://github.com/y1ndan/genshin-impact-helper" loading="lazy"></a></p>
+<ul>
+<li>自动化为你获取原神每日福利</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[记群晖docker终端 socket已停止解决方法 V2]]></title>
         <id>https://zhengfan2014.github.io/blog/post/ji-qun-hui-docker-zhong-duan-socket-yi-ting-zhi-jie-jue-fang-fa-v2/</id>
